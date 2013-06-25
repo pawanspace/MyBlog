@@ -16,38 +16,30 @@ $(document).ready(function(){
 	}, 6666);
 
 
-	$("nav li.dropdown").hover(function(){
+	$(".dropdown").hover(function(){
+		console.log("firing main");
 		$(this).find(".sub-hide li").first().slideDown(150, function showNext() {
 	   		 $(this).next("li").slideDown(150, showNext);
 	  	});
 	},function(){
 		$(this).find(".sub-hide li").first().slideUp(150, function hideNext() {
-	   		 $(this).next("li").slideUp(150, hideNext);
+	   		 $(this).next("li").slideUp(20, hideNext);
 	  	});
 	});
 
 
-	$(".sub-hide li").hover(function(){
+	$(".sub-hide li").hover(function(e){
+		console.log("firing sub");
 		$(this).find(".sub-sub-hide li").first().slideDown(150, function showNext() {
 	   		 $(this).next("li").slideDown(150, showNext);
 	  	});
-	},function(){
+	},function(e){
 		$(this).find(".sub-sub-hide li").first().slideUp(150, function hideNext() {
-	   		 $(this).next("li").slideUp(150, hideNext);
+	   		 $(this).next("li").slideUp(20, hideNext);
 	  	});
-	});
+	}
+	);
 
-	/*$("nav li.dropdown").hover(function(){
-		$(this).find(".sub-hide").show("slow");
-	},function(){
-		$(this).find(".sub-hide").hide("slow");
-	});*/
-
-/*	$(".sub-hide li").hover(function(){
-		$(this).find(".sub-sub-hide").show("slow");
-	},function(){
-		$(this).find(".sub-sub-hide").hide("slow");
-	});*/
 
 	$(window).scroll(function(){
 

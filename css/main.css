@@ -323,7 +323,7 @@ nav{
 }
 
 nav li{
-    background-color: #ea5080;
+    background-color: #E84162;
     list-style: none;
     margin-right: 20px;
     padding: 10px 10px 10px 10px;
@@ -399,7 +399,11 @@ article{
 }
 
 
-
+.form-div{
+    padding: 30px;
+    margin-top: 250px;
+    position: absolute;
+}
 
 
 nav li a{
