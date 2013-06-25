@@ -302,24 +302,24 @@ textarea {
 
 header{
 
-    background-color:  #FFFFE3;
+    background-color: #362205;
     /* IE10 Consumer Preview */ 
-    background: -ms-linear-gradient(top left, #FFFFFF 1%, #FFFFE3 54%);
+    background: -ms-linear-gradient(top, #FFFFFF -3%, #817865 35%);
 
     /* Mozilla Firefox */ 
-    background: -moz-linear-gradient(top left, #FFFFFF 1%, #FFFFE3 54%);
+    background: -moz-linear-gradient(top, #FFFFFF -3%, #817865 35%);
 
     /* Opera */ 
-    background: -o-linear-gradient(top left, #FFFFFF 1%, #FFFFE3 54%);
+    background: -o-linear-gradient(top, #FFFFFF -3%, #817865 35%);
 
     /* Webkit (Safari/Chrome 10) */ 
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(1, #FFFFE3));
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFF1), color-stop(1, #817865));
 
     /* Webkit (Chrome 11+) */ 
-    background: -webkit-linear-gradient(top left, #FFFFFF 1%, #FFFFE3 54%);
+    background: -webkit-linear-gradient(top, #FFFFFF -3%, #817865 35%);
 
     /* W3C Markup, IE10 Release Preview */ 
-    background: linear-gradient(to left top,#FFFFFF 1%, #FFFFE3 54%);
+    background: linear-gradient(to top, #FFFFFF -3%, #817865 35%));
 
     height: 165px;
     z-index: 120;
@@ -336,22 +336,22 @@ nav{
 
      margin-top: 130px;
      /* IE10 Consumer Preview */ 
-    background: -ms-linear-gradient(top left, #000024 -31%, #E41B17 58%);
+    background: -ms-linear-gradient(top left, #FFFFFF -9%, #FECE2F 49%);
 
     /* Mozilla Firefox */ 
-    background: -moz-linear-gradient(top left, #000024 -31%, #E41B17 58%);
+    background: -moz-linear-gradient(top left, #FFFFFF -9%, #FECE2F 49%);
 
     /* Opera */ 
-    background: -o-linear-gradient(top left, #000024 -31%, #E41B17 58%);
+    background: -o-linear-gradient(top left, #FFFFFF -9%, #FECE2F 49%);
 
     /* Webkit (Safari/Chrome 10) */ 
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(1, #E41B17));
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(1, #FECE2F));
 
     /* Webkit (Chrome 11+) */ 
-    background: -webkit-linear-gradient(top left, #000024 -31%, #E41B17 58%);
+    background: -webkit-linear-gradient(top left,#FFFFFF -9%, #FECE2F 49%);
 
     /* W3C Markup, IE10 Release Preview */ 
-    background: linear-gradient(to bottom, #000000 -31%, #FFA62F 58%);
+    background: linear-gradient(to bottom, #FFFFFF -9%, #FECE2F 49%);
     z-index: 120;
     position: fixed;
     width: 80%;
@@ -360,7 +360,7 @@ nav{
 }
 
 nav li{
-    color: #D8D1D1 !important;
+    color:  #786D5F !important;
     margin-right: 20px;
     padding: 2px 2px 2px 2px;
     font-size: 15px;
@@ -385,10 +385,11 @@ nav li{
 }
 
 header h4{
-    color: black !important;
+    color: #FFFFFF !important;
     font-family: Lucida Console;
     font-weight: lighter;
     text-align: center;
+	margin-top: 32px;
 }
 
 .dropdown:hover{
@@ -409,11 +410,11 @@ article{
     left: 0;
     margin: 0;
     margin-top:2px;
-    background-color:  gray;
+    background-color:  white;
 }
 
 .sub-hide li, .sub-sub-hide li{
-    background-color: #E41B17;
+    background-color: #FECE2F;
       margin-bottom: 2px;
       width: 100%;
       padding: 2px;
@@ -421,7 +422,7 @@ article{
 
 
 .sub-sub-hide{
-    background-color:  gray;
+    background-color:  white;
     display: none;
     z-index: 99999;
     width: auto;
@@ -434,14 +435,14 @@ article{
 
 
 .sub-hide li:hover{
-   color: white  !important;
+	background-color: #FFDD57;
 }
 
 nav li a{
-    color: #D8D1D1 !important;
+    color: #786D5F !important;
 }
 
 nav li a:hover{
-    color: white  !important;
+    background-color: #FFDE57;
     text-decoration: none;
 ;
