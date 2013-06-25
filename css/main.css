@@ -301,70 +301,35 @@ textarea {
 
 
 header{
-
-    background-color: #362205;
-    /* IE10 Consumer Preview */ 
-    background: -ms-linear-gradient(top, #FFFFFF -3%, #817865 35%);
-
-    /* Mozilla Firefox */ 
-    background: -moz-linear-gradient(top, #FFFFFF -3%, #817865 35%);
-
-    /* Opera */ 
-    background: -o-linear-gradient(top, #FFFFFF -3%, #817865 35%);
-
-    /* Webkit (Safari/Chrome 10) */ 
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFF1), color-stop(1, #817865));
-
-    /* Webkit (Chrome 11+) */ 
-    background: -webkit-linear-gradient(top, #FFFFFF -3%, #817865 35%);
-
-    /* W3C Markup, IE10 Release Preview */ 
-    background: linear-gradient(to top, #FFFFFF -3%, #817865 35%));
-
-    height: 165px;
-    z-index: 120;
+    height: 148px;
+    width: 100%;
     position: fixed;
-    width: 80%;
+    margin:0;
+    z-index: 300;
 
 }
 
+.staticHeader{
+       background: url("../img/bg.PNG") repeat scroll 0 0 #F9F8F6;
 
-/*to bottom, #FFFFFF 0%, #FF250F 61%*/
+   }
+
+
 nav{
-
-    /*E41B17*/
-
-     margin-top: 130px;
-     /* IE10 Consumer Preview */ 
-    background: -ms-linear-gradient(top left, #FFFFFF -9%, #FECE2F 49%);
-
-    /* Mozilla Firefox */ 
-    background: -moz-linear-gradient(top left, #FFFFFF -9%, #FECE2F 49%);
-
-    /* Opera */ 
-    background: -o-linear-gradient(top left, #FFFFFF -9%, #FECE2F 49%);
-
-    /* Webkit (Safari/Chrome 10) */ 
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(1, #FECE2F));
-
-    /* Webkit (Chrome 11+) */ 
-    background: -webkit-linear-gradient(top left,#FFFFFF -9%, #FECE2F 49%);
-
-    /* W3C Markup, IE10 Release Preview */ 
-    background: linear-gradient(to bottom, #FFFFFF -9%, #FECE2F 49%);
-    z-index: 120;
     position: fixed;
-    width: 80%;
-    height: 35px;
-    float: l
+    width: 100%;
+    z-index: 500;
+    margin-top: 75px;
 }
 
 nav li{
-    color:  #786D5F !important;
+    background-color: #ea5080;
+    list-style: none;
     margin-right: 20px;
-    padding: 2px 2px 2px 2px;
+    padding: 10px 10px 10px 10px;
     font-size: 15px;
     font-weight: bold;
+    border-radius: 180px;
 }
 
 .dropdown{
@@ -385,11 +350,19 @@ nav li{
 }
 
 header h4{
-    color: #FFFFFF !important;
+    color: #000000 !important;
     font-family: Lucida Console;
     font-weight: lighter;
     text-align: center;
 	margin-top: 32px;
+}
+
+.scrolling{
+     background-color: #000000 !important;
+}
+
+.scrolling h4{
+      color: #FFFFFF !important;
 }
 
 .dropdown:hover{
@@ -397,52 +370,51 @@ header h4{
 }
 
 article{
-    margin-top: 170px;
+    margin-top: 150px;
     position: absolute;
-    width: 80%;
+    padding: 30px;
 }
 .sub-hide{
-    display: none;
+    background-color: white;
     z-index: 99999;
     position: absolute;
-    width: inherit;
     float: left;
     left: 0;
-    margin: 0;
-    margin-top:2px;
-    background-color:  white;
+    margin-top:12px;
 }
 
-.sub-hide li, .sub-sub-hide li{
-    background-color: #FECE2F;
+.sub-hide li, .sub-sub-hide li{;
       margin-bottom: 2px;
-      width: 100%;
-      padding: 2px;
+      text-align: center;
+      display: none;
 }
 
 
 .sub-sub-hide{
-    background-color:  white;
-    display: none;
     z-index: 99999;
-    width: auto;
     float: left;
-    left: 77px;
-    margin-top: -22px;
+     left: 97px;
+    margin-top: -25px;
     position: absolute;
 }
 
 
 
-.sub-hide li:hover{
-	background-color: #FFDD57;
-}
+
 
 nav li a{
-    color: #786D5F !important;
+    color: #000000 !important;
+    text-decoration: none;
+    width:100%;
 }
 
-nav li a:hover{
-    background-color: #FFDE57;
-    text-decoration: none;
-;
+/*nav li a:hover{
+   color: #FFFFFF  !important;
+}*/
+nav li:hover >a{
+   background-color: #aa2a52;
+     color: #FFFFFF  !important;
+}
+nav li:hover{
+   background-color: #aa2a52;
+}
