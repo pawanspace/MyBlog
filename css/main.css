@@ -422,3 +422,16 @@ nav li:hover >a{
 nav li:hover{
    background-color: #aa2a52;
 }
+
+#stats{
+    border: solid 1px;
+}
+
+#stats tr{
+    border: solid 1px;
+}
+
+#stats th{
+    border: solid 1px;
+    background-color:#cfd4b8
+}
